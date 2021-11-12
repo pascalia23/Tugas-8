@@ -1,0 +1,17 @@
+@page "/employeedetail/{id}"
+@if(Employee == null || Employee.Department==null){
+  <div class="spinner"></div>
+}
+else{
+<h3><b> Detail Employee </b> </h3>
+    <div class="card m-3" style="min-width: 18rem; max-width:30%">
+  <img class="card-img-top img-thumbnail" src="@Employee.PhotoPath" />
+    <p>ID : @Employee.EmployeeId</p>
+    <p>First Name : @Employee.FirstName</p>
+    <p>Last Name : @Employee.LastName</p>
+    <p>Date Of Birth: @Employee.DateOfBirth</p>
+    <p>Gender: @Employee.Gender</p>
+    <p>Department Id: @Employee.DepartmentId</p>
+    <p>Department Name: @Employee.Department.DepartmentName</p>
+  </div>
+}
