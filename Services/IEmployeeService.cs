@@ -10,5 +10,10 @@ namespace PAS.Services
     {
          Task<IEnumerable<Employee>> GetEmployee();
          Task<Employee> GetEmployee(int id);
+    
+         Task<Employee> Add(Employee employee);
+
+         Task<Employee> Update (int id, Employee employee);
+         
     }
 }

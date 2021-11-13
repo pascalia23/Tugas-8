@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Front\\PAS\\PAS.csproj",
+  "FilePath": "c:\\Front\\Tugas 6\\PAS.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "5.0",
@@ -213,39 +213,6 @@
         }
       },
       {
-        "HashCode": -1134761802,
-        "Kind": "Components.Component",
-        "Name": "PAS.Pages.FetchData",
-        "AssemblyName": "PAS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PAS.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -717449972,
-        "Kind": "Components.Component",
-        "Name": "PAS.Pages.FetchData",
-        "AssemblyName": "PAS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PAS.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PAS.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -187377260,
         "Kind": "Components.Component",
         "Name": "PAS.Pages.Index",
@@ -275,6 +242,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "PAS.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1134761802,
+        "Kind": "Components.Component",
+        "Name": "PAS.Pages.FetchData",
+        "AssemblyName": "PAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PAS.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -717449972,
+        "Kind": "Components.Component",
+        "Name": "PAS.Pages.FetchData",
+        "AssemblyName": "PAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PAS.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PAS.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13181,64 +13181,64 @@
   "RootNamespace": "PAS",
   "Documents": [
     {
-      "FilePath": "c:\\Front\\PAS\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\PAS\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\PAS\\App.razor",
+      "FilePath": "c:\\Front\\Tugas 6\\App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Front\\PAS\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\PAS\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\PAS\\Pages\\EmployeePage.razor",
+      "FilePath": "c:\\Front\\Tugas 6\\Pages\\EmployeePage.razor",
       "TargetPath": "Pages\\EmployeePage.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Front\\PAS\\Pages\\DetailEmployee.razor",
-      "TargetPath": "Pages\\DetailEmployee.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\PAS\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\PAS\\Pages\\DepartmentPage.razor",
-      "TargetPath": "Pages\\DepartmentPage.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\PAS\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\PAS\\Pages\\DetailDepartment.razor",
+      "FilePath": "c:\\Front\\Tugas 6\\Pages\\DetailDepartment.razor",
       "TargetPath": "Pages\\DetailDepartment.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Front\\PAS\\_Imports.razor",
+      "FilePath": "c:\\Front\\Tugas 6\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 6\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 6\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 6\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 6\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 6\\Pages\\DetailEmployee.razor",
+      "TargetPath": "Pages\\DetailEmployee.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 6\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 6\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 6\\Pages\\DepartmentPage.razor",
+      "TargetPath": "Pages\\DepartmentPage.razor",
+      "FileKind": "component"
     }
   ],
   "SerializationFormat": "0.2"
