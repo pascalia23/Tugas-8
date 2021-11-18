@@ -9,7 +9,7 @@ namespace PAS.Services
     public interface IEmployeeService
     {
          Task<IEnumerable<Employee>> GetEmployee();
-         Task<Employee> GetEmployee(int id);
+         Task<Employee> GetById(int id);
     
          Task<Employee> Add(Employee employee);
 

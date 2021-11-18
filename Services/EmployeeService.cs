@@ -21,16 +21,13 @@ namespace PAS.Services
             throw new NotImplementedException();
         }
 
-        public async Task<Employee> GetEmployee(int id)
+        public async Task<Employee> GetById(int id)
         {
             var result = await _httpClient.GetFromJsonAsync<Employee>($"api/Employees/{id}");
             return result;
         }
 
-        internal Task<Employee> GetById(int v)
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public async Task <IEnumerable<Employee>> GetEmployee()
         {

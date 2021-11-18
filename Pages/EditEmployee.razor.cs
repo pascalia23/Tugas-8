@@ -1,10 +1,10 @@
-
-
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Components;
 using PAS.Models;
 using PAS.Services;
+using Microsoft.AspNetCore.Components;
 
 namespace PAS.Pages
 {
@@ -16,13 +16,21 @@ namespace PAS.Pages
         
         public IEmployeeService  EmployeeService { get; set; }
 
+        public  IDepartmentService DepartmentService { get; set; }
+
+        public List<Department> Departments { get; set; } = new List<Department>();
+
+
+
         [Parameter]
         public string  Id { get; set; }
 
-        protected override async Task OnInitializedAsync()
+        protected async override  Task OnInitializedAsync()
         {
+            
             Employee = await EmployeeService.GetById(int.Parse(Id));
-        }
+            Departments = (await Departments.GetAll()).ToList();
+          }
 
     }
     }

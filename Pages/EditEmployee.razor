@@ -1,0 +1,43 @@
+@page "/editemployee"
+
+ <EditForm Model ="@Employee">
+     <h3>Edit Employee</h3>
+     <hr/>
+     <div class="form-group row">
+         <label for="firtsName" class="col-sm-2 col-form-label">
+             First Name
+         </label>
+         <div class="col-sm-18">
+             <InputText id="firstName" class="form-control" aria-placeholder="First Name"
+             @bind-Value="Employee.FirstName"/>
+         </div>
+     </div>
+     <div class="form-group row">
+         <label for="lastName" class="col-sm-2 col-form-label">
+             Last Name
+         </label>
+         <div class="col-sm-18">
+             <InputText id="lastName" class="form-control" aria-placeholder="Last Name"
+             @bind-Value="Employee.LastName"/>
+         </div>
+     </div>
+
+     <div class="form-group row">
+         <label for="email" class="col-sm-2 col-form-label">
+             Email
+         </label>
+         <div class="col-sm-18">
+             <InputText id="email" class="form-control" aria-placeholder="Email"
+             @bind-Value="Employee.Email"/>
+         </div>
+     </div>
+     <div class="form-group row">
+            <InputSelect id="department" @bind-value ="Employee.DepartmentId"class="form-control"/>
+                @foreach (var dept in Departments)
+                {
+                    <option value ="@dept.DepartmentId">@dept.DepartmentName</option>
+                }
+
+            </InputSelect>
+            </div>
+     </EditForm>
