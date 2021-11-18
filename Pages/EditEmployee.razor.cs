@@ -18,9 +18,9 @@ namespace Tugas_7.Pages
         [Parameter]
         public string  Id { get; set; }
 
-        protected override Task  OnInitializedAsync()
+        protected override Task OnInitializedAsync()
         {
-         override bae.OnInitilizedAsync();
+         return  base.OnInitilizedAsync();
         }
 
     }
