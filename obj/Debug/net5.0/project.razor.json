@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Front\\Tugas 72\\PAS.csproj",
+  "FilePath": "c:\\Front\\Tugas 72 - Copy\\PAS.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "5.0",
@@ -13234,68 +13234,68 @@
   "RootNamespace": "PAS",
   "Documents": [
     {
-      "FilePath": "c:\\Front\\Tugas 72\\Shared\\SurveyPrompt.razor",
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Front\\Tugas 72\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 72\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 72\\Pages\\DetailEmployee.razor",
-      "TargetPath": "Pages\\DetailEmployee.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 72\\Pages\\EmployeePage.razor",
-      "TargetPath": "Pages\\EmployeePage.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 72\\Pages\\DetailDepartment.razor",
-      "TargetPath": "Pages\\DetailDepartment.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 72\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 72\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 72\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 72\\Pages\\FetchData.razor",
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Front\\Tugas 72\\Pages\\DepartmentPage.razor",
-      "TargetPath": "Pages\\DepartmentPage.razor",
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\Pages\\DetailEmployee.razor",
+      "TargetPath": "Pages\\DetailEmployee.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Front\\Tugas 72\\Pages\\Counter.razor",
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Front\\Tugas 72\\Pages\\EditEmployee.razor",
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\Pages\\DetailDepartment.razor",
+      "TargetPath": "Pages\\DetailDepartment.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\Pages\\EmployeePage.razor",
+      "TargetPath": "Pages\\EmployeePage.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\Pages\\EditEmployee.razor",
       "TargetPath": "Pages\\EditEmployee.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\Pages\\DepartmentPage.razor",
+      "TargetPath": "Pages\\DepartmentPage.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 72 - Copy\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     }
   ],
