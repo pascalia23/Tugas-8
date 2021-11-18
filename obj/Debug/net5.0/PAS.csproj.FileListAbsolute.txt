@@ -2555,3 +2555,4 @@ C:\Front\Tugas 7\obj\Debug\net5.0\PAS.dll
 C:\Front\Tugas 7\obj\Debug\net5.0\ref\PAS.dll
 C:\Front\Tugas 7\obj\Debug\net5.0\PAS.pdb
 C:\Front\Tugas 7\obj\Debug\net5.0\RazorDeclaration\Pages\EditEmployee.razor.g.cs
+C:\Front\Tugas 7\obj\Debug\net5.0\Razor\Pages\EditEmployee.razor.g.cs

@@ -213,7 +213,40 @@
         }
       },
       {
-        "HashCode": -1989807292,
+        "HashCode": -187377260,
+        "Kind": "Components.Component",
+        "Name": "PAS.Pages.Index",
+        "AssemblyName": "PAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PAS.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1064537045,
+        "Kind": "Components.Component",
+        "Name": "PAS.Pages.Index",
+        "AssemblyName": "PAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PAS.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PAS.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2027519188,
         "Kind": "Components.Component",
         "Name": "PAS.Pages.EditEmployee",
         "AssemblyName": "PAS",
@@ -223,13 +256,23 @@
             "TagName": "EditEmployee"
           }
         ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "PAS.Pages.EditEmployee"
         }
       },
       {
-        "HashCode": 1779457163,
+        "HashCode": 992158223,
         "Kind": "Components.Component",
         "Name": "PAS.Pages.EditEmployee",
         "AssemblyName": "PAS",
@@ -237,6 +280,16 @@
         "TagMatchingRules": [
           {
             "TagName": "PAS.Pages.EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
           }
         ],
         "Metadata": {
@@ -275,39 +328,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "PAS.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -187377260,
-        "Kind": "Components.Component",
-        "Name": "PAS.Pages.Index",
-        "AssemblyName": "PAS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PAS.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1064537045,
-        "Kind": "Components.Component",
-        "Name": "PAS.Pages.Index",
-        "AssemblyName": "PAS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PAS.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PAS.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
