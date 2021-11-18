@@ -20,7 +20,8 @@ namespace PAS.Pages
 
         public List<Department> Departments { get; set; } = new List<Department>();
 
-
+        [Inject]
+        public NavigationManager NavigationManager { get; set; }
 
         [Parameter]
         public string  Id { get; set; }
@@ -31,7 +32,10 @@ namespace PAS.Pages
             Employee = await EmployeeService.GetById(int.Parse(Id));
             Departments = (await DepartmentService.GetAll()).ToList();
           }
-
+         protected async Task HandleValidSubmit(){
+             Employee result = await EmployeeService.Update(int.Parse(Id),Employee);
+            NavigationManager.NavigateTo("employeepage");
+         }
     }
     }
  

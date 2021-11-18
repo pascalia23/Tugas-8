@@ -1,6 +1,6 @@
 @page "/editemployee"
 
- <EditForm Model ="@Employee">
+ <EditForm Model ="@Employee" oninvalidSubmit="HadleValidSubmit">
      <h3>Edit Employee</h3>
      <hr/>
      <div class="form-group row">
@@ -44,7 +44,7 @@
 
             <div class="cpl-sm-10">
             <InputSelect @bind-Value="Employee.Gender" class="form-control">
-            @foreach (var gender in Enum.GetValues(typeof(gender)))
+            @foreach (var gender in Enum.GetValues(typeof(PAS.Models.Gender)))
             {
             <option  value ="@gender">@gender</option>
     
@@ -61,5 +61,5 @@
 
                          </div>
         </div>
-           
+          <button class="btn btn-primary" type="submit">Submit</button> 
      </EditForm>
