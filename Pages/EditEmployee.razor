@@ -32,12 +32,34 @@
          </div>
      </div>
      <div class="form-group row">
-            <InputSelect id="department" @bind-value ="Employee.DepartmentId"class="form-control"/>
+
+            <InputSelect id="department" @bind-Value ="Employee.DepartmentId" class="form-control">
+            
                 @foreach (var dept in Departments)
                 {
                     <option value ="@dept.DepartmentId">@dept.DepartmentName</option>
                 }
-
             </InputSelect>
             </div>
+
+            <div class="cpl-sm-10">
+            <InputSelect @bind-Value="Employee.Gender" class="form-control">
+            @foreach (var gender in Enum.GetValues(typeof(gender)))
+            {
+            <option  value ="@gender">@gender</option>
+    
+            }</InputSelect>
+            </div> 
+        <div class="form-group row">
+            <label for = "dateOfbirth" class ="col-sm-2 col-form-label">
+                Date Of Birth
+            </label>
+            <div class ="col-sm-10">
+                <InputDate @bind-Value="Employee.DateOfBirth" class="form-control">
+
+                </InputDate>
+
+                         </div>
+        </div>
+           
      </EditForm>

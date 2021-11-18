@@ -29,7 +29,7 @@ namespace PAS.Pages
         {
             
             Employee = await EmployeeService.GetById(int.Parse(Id));
-            Departments = (await Departments.GetAll()).ToList();
+            Departments = (await DepartmentService.GetAll()).ToList();
           }
 
     }
