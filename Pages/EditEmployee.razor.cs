@@ -1,11 +1,12 @@
 
-using System;
+
+
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using PAS.Models;
 using PAS.Services;
-using System.Threading.Tasks;
 
-namespace Tugas_7.Pages
+namespace PAS.Pages
 {
     public partial class EditEmployee
     {
@@ -18,9 +19,9 @@ namespace Tugas_7.Pages
         [Parameter]
         public string  Id { get; set; }
 
-        protected override Task OnInitializedAsync()
+        protected override async Task OnInitializedAsync()
         {
-         return  base.OnInitilizedAsync();
+            Employee = await EmployeeService.GetById(int.Parse(Id));
         }
 
     }
