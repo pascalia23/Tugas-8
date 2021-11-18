@@ -29,8 +29,6 @@ namespace PAS.Services
             return result;
         }
 
-        
-
         public async Task <IEnumerable<Employee>> GetEmployee()
         {
             var results = await _httpClient.GetFromJsonAsync<IEnumerable<Employee>>("api/Employees");

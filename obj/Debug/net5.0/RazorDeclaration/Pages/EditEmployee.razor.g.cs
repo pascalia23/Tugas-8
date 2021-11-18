@@ -82,7 +82,7 @@ using PAS.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/editemployee")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/editemployee/{id}")]
     public partial class EditEmployee : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
