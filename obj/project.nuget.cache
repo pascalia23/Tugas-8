@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rw0nCJV2SO/Netggi7cpRbWT6BRxrCDcMweF/F2cDgcEm/gg794rvXRVHTcNau+j6A7CW4PD7tYRxVL7V2+u5A==",
+  "dgSpecHash": "MNNQu4JE6etsngdsLEFMCqFghyb1HPYljXCjGnxCViKbxv0k7EhPbldQsqnc1ifxi/NrGQE2Qy807s52VowryA==",
   "success": true,
-  "projectFilePath": "C:\\Front\\Tugas 6\\PAS.csproj",
+  "projectFilePath": "C:\\Front\\Tugas 7\\PAS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\win 10\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.11\\microsoft.aspnetcore.authorization.5.0.11.nupkg.sha512",
     "C:\\Users\\win 10\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.11\\microsoft.aspnetcore.components.5.0.11.nupkg.sha512",

@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Front\\Tugas 6\\PAS.csproj",
+  "FilePath": "c:\\Front\\Tugas 7\\PAS.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "5.0",
@@ -213,35 +213,35 @@
         }
       },
       {
-        "HashCode": -187377260,
+        "HashCode": -1989807292,
         "Kind": "Components.Component",
-        "Name": "PAS.Pages.Index",
+        "Name": "PAS.Pages.EditEmployee",
         "AssemblyName": "PAS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "EditEmployee"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PAS.Pages.Index"
+          "Common.TypeName": "PAS.Pages.EditEmployee"
         }
       },
       {
-        "HashCode": 1064537045,
+        "HashCode": 1779457163,
         "Kind": "Components.Component",
-        "Name": "PAS.Pages.Index",
+        "Name": "PAS.Pages.EditEmployee",
         "AssemblyName": "PAS",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "PAS.Pages.Index"
+            "TagName": "PAS.Pages.EditEmployee"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PAS.Pages.Index",
+          "Common.TypeName": "PAS.Pages.EditEmployee",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -275,6 +275,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "PAS.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -187377260,
+        "Kind": "Components.Component",
+        "Name": "PAS.Pages.Index",
+        "AssemblyName": "PAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PAS.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1064537045,
+        "Kind": "Components.Component",
+        "Name": "PAS.Pages.Index",
+        "AssemblyName": "PAS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PAS.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PAS.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13181,63 +13214,68 @@
   "RootNamespace": "PAS",
   "Documents": [
     {
-      "FilePath": "c:\\Front\\Tugas 6\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 6\\Pages\\EmployeePage.razor",
-      "TargetPath": "Pages\\EmployeePage.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 6\\Pages\\DetailDepartment.razor",
+      "FilePath": "c:\\Front\\Tugas 7\\Pages\\DetailDepartment.razor",
       "TargetPath": "Pages\\DetailDepartment.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Front\\Tugas 6\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 6\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 6\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 6\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 6\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 6\\Pages\\DetailEmployee.razor",
-      "TargetPath": "Pages\\DetailEmployee.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Front\\Tugas 6\\Shared\\SurveyPrompt.razor",
+      "FilePath": "c:\\Front\\Tugas 7\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Front\\Tugas 6\\Pages\\Index.razor",
+      "FilePath": "c:\\Front\\Tugas 7\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 7\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 7\\Pages\\Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 7\\Pages\\EditEmployee.razor",
+      "TargetPath": "Pages\\EditEmployee.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 7\\Pages\\DetailEmployee.razor",
+      "TargetPath": "Pages\\DetailEmployee.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 7\\Pages\\EmployeePage.razor",
+      "TargetPath": "Pages\\EmployeePage.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 7\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 7\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 7\\Pages\\DepartmentPage.razor",
+      "TargetPath": "Pages\\DepartmentPage.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Front\\Tugas 7\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Front\\Tugas 6\\Pages\\DepartmentPage.razor",
-      "TargetPath": "Pages\\DepartmentPage.razor",
+      "FilePath": "c:\\Front\\Tugas 7\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     }
   ],
