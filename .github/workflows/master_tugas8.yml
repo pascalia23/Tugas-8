@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'Tugas8'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D803068293F94877902254703B3E5AD6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F02B77265A2C4B459B78DBC0C0B54E34 }}
           package: .
