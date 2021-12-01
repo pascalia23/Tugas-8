@@ -18,11 +18,6 @@ namespace PAS.Services
             _httpClient = httpClient;
         }
 
-        public Task<Employee> Add(Employee employee)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<Employee> GetById(int id)
         {
             var result = await _httpClient.GetFromJsonAsync<Employee>($"api/Employees/{id}");
@@ -42,8 +37,22 @@ namespace PAS.Services
                 return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
             }
             else {
-                throw new InsufficientExecutionStackException("Gagal Update Employee");
+                throw new Exception("Gagal Update Employee");
             }
+        }
+        public async Task<Employee> Add(Employee obj){
+            var response = await _httpClient.PostAsJsonAsync($"api/Employees",obj);
+          if(response.IsSuccessStatusCode){
+                return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
+            }
+            else {
+                throw new Exception("Gagal Add Employee");
+            }
+        }
+
+        public Task<Employee> Add(Employee employee, object obj)
+        {
+            throw new NotImplementedException();
         }
     }
 }

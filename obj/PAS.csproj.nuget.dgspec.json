@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Front\\Tugas 72\\PAS.csproj": {}
+    "C:\\Front\\Tugas 9\\PAS.csproj": {}
   },
   "projects": {
-    "C:\\Front\\Tugas 72\\PAS.csproj": {
+    "C:\\Front\\Tugas 9\\PAS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Front\\Tugas 72\\PAS.csproj",
+        "projectUniqueName": "C:\\Front\\Tugas 9\\PAS.csproj",
         "projectName": "PAS",
-        "projectPath": "C:\\Front\\Tugas 72\\PAS.csproj",
+        "projectPath": "C:\\Front\\Tugas 9\\PAS.csproj",
         "packagesPath": "C:\\Users\\win 10\\.nuget\\packages\\",
-        "outputPath": "C:\\Front\\Tugas 72\\obj\\",
+        "outputPath": "C:\\Front\\Tugas 9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\win 10\\AppData\\Roaming\\NuGet\\NuGet.Config"

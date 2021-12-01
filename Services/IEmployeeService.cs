@@ -10,10 +10,7 @@ namespace PAS.Services
     {
          Task<IEnumerable<Employee>> GetEmployee();
          Task<Employee> GetById(int id);
-    
-         Task<Employee> Add(Employee employee);
-
          Task<Employee> Update (int id, Employee employee);
-         
-    }
+        Task<Employee> Add(Employee employee);
+    }   
 }

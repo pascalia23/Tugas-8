@@ -7,8 +7,10 @@ using Microsoft.AspNetCore.Components;
 
 namespace PAS.Pages
 {
-    public partial class EditEmployee
+    public partial class AddEmployee
     {
+        private object obj;
+
         public Employee Employee { get; set; } = new Employee();
        
         [Inject]
@@ -29,12 +31,11 @@ namespace PAS.Pages
         protected async override  Task OnInitializedAsync()
         {
             
-            Employee = await EmployeeService.GetById(int.Parse(Id));
-            Departments = (await DepartmentService.GetAll()).ToList();
+             Departments = (await DepartmentService.GetAll()).ToList();
           }
          protected async Task HandleValidSubmit(){
              Employee.PhotoPath ="images/nophoto.jpg";
-            Employee result = await EmployeeService.Update(int.Parse(Id),Employee);
+             Employee result = await EmployeeService.Add(Employee);
             NavigationManager.NavigateTo("employeepage");
          }
     }
